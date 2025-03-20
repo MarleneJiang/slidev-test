@@ -1,0 +1,18 @@
+{
+  "name": "slidev-test",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.4.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "markdown-it-emoji": "^3.0.0",
+    "markdown-it-magic-link": "^0.1.4",
+    "vue": "^3.5.13"
+  }
+}
